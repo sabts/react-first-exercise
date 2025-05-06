@@ -21,9 +21,11 @@ const App = () => {
       Crea un componente que reciba distancia y tiempo como props y calcule la velocidad por hora.</p>
       <SabrinaRuns hours={4} kilometers={120}></SabrinaRuns>
 
-      <p>5. Macarena recogió 320 manzanas y las va a poner en 10 cajas. ¿Cuántas manzanas tendrá cada caja?
-      Crea un componente que reciba la cantidad total y cajas como props y muestre cuántas por caja.</p>
+      <p>5. Macarena recogió 320 manzanas y las va a poner en 10 cajas. ¿Cuántas manzanas tendrá cada caja?.</p>
       <MacarenaApples apples= {320} boxes={10}></MacarenaApples>
+
+      <p> 6. Bego tiene 62 tornillos y los guarda en cajas de 12. ¿Cuántos tornillos quedarán sueltos?
+      Crea un componente que reciba el total y la capacidad por caja como props y muestre los sobrantes.</p>
     </>
   );
 };
